@@ -9,13 +9,30 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.33",
+    "@expo/metro-runtime": "~6.1.2",
+    "@expo/vector-icons": "^15.0.3",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.9.26",
+    "axios": "^1.9.0",
+    "buffer": "^6.0.3",
+    "expo": "~54.0.0",
+    "expo-blur": "~15.0.8",
+    "expo-font": "~14.0.11",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-secure-store": "~15.0.8",
     "expo-status-bar": "~3.0.9",
+    "neo4j-driver": "^5.28.1",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.0"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@types/react": "^19.0.0",
     "typescript": "~5.9.2"
   },
   "private": true

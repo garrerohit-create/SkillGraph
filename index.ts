@@ -1,4 +1,9 @@
+import 'react-native-gesture-handler';
 import { registerRootComponent } from 'expo';
+import { Buffer } from 'buffer';
+
+// Polyfill Buffer for libraries like neo4j-driver
+global.Buffer = Buffer;
 
 import App from './App';
 
